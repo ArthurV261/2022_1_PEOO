@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "T8b7ak7+gXCKDdXAzs/IiXA4qWwSYeeg8QCHJ5laqJ4WA5p6t3H/k9EvOJfX4ZvSkv/ihRS/J8H8V3mIod79Tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\20201011110004\\source\\repos\\2022_1_PEOO\\Agenda\\Agenda\\Agenda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\20201011110004\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

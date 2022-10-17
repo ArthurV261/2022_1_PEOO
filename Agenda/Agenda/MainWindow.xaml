@@ -1,0 +1,25 @@
+﻿<Window x:Class="Agenda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agenda"
+        mc:Ignorable="d"
+        Title="Agenda" Height="252" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <TextBlock TextWrapping="Wrap" Margin="1,0,-1,0"><Run Language="pt-br"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="5,6,0,0" Text="Nome" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.889,0.817" Height="16" Width="33"/>
+        <TextBlock x:Name="___Sem_Nome_" HorizontalAlignment="Left" Margin="269,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="50" RenderTransformOrigin="0.14,0.502"><Run Text="T"/><Run Language="pt-br" Text="elefone"/></TextBlock>
+        <Button x:Name="Inserir" Content="Inserir" HorizontalAlignment="Left" Margin="4,44,0,0" VerticalAlignment="Top" Click="Button_Click" Height="20" Width="37"/>
+        <ListBox x:Name="List" Margin="10,90,10,22" Grid.ColumnSpan="5"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="3,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" TextChanged="TextBox_TextChanged" Height="18" Text="AAAA"/>
+        <TextBlock HorizontalAlignment="Left" Margin="136,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="87"><Run Language="pt-br" Text="E-mail"/></TextBlock>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" TextChanged="TextBox_TextChanged" Height="18" Text="AAAAA"/>
+        <TextBox x:Name="txtFone" HorizontalAlignment="Left" Margin="268,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" TextChanged="TextBox_TextChanged" Height="18"/>
+        <Button x:Name="Excluir" Content="Excluir" HorizontalAlignment="Left" Margin="44,44,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
