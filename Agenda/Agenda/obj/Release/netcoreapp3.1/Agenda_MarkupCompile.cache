@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\20201011110004\Documents\ListaPoo04\Agenda\Agenda\obj\Debug\netcoreapp3.1\
+C:\Users\20201011110004\Documents\ListaPoo04\Agenda\Agenda\obj\Release\netcoreapp3.1\
 Agenda
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\20201011110004\Documents\ListaPoo04\Agenda\Agenda\App.xaml
 11407045341
 

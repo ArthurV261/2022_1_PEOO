@@ -1,0 +1,36 @@
+﻿<Window x:Class="AppCombustivel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppCombustivel"
+        mc:Ignorable="d"
+        Title="Abastecimento" Height="289" Width="250">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="5,14,19,13">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="219*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.062"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBlock HorizontalAlignment="Left" Margin="4,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.48,5.951" Height="20" Width="71" Grid.Column="1"><Run Language="pt-br" Text="Km Rodados"/></TextBlock>
+        <Button x:Name="Calcular" Content="Calcular" HorizontalAlignment="Center" VerticalAlignment="Center" Width="178" Click="Calcular_Click" Grid.Column="1" Height="20"/>
+        <TextBox x:Name="txtKmRodado" HorizontalAlignment="Left" Margin="87,4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" Text="345" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="4,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.48,5.951" Height="20" Width="77" Grid.Column="1"><Run Language="pt-br" Text="Valor Pago R$"/></TextBlock>
+        <TextBox x:Name="txtValorPago" HorizontalAlignment="Left" Margin="87,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" Text="141" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="4,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.48,5.951" Height="20" Width="71" Grid.Column="1"><Run Language="pt-br" Text="Valor Litro R$"/></TextBlock>
+        <TextBox x:Name="txtValorLitro" HorizontalAlignment="Left" Margin="87,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" Text="3" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="4,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.48,5.951" Height="20" Width="71" Grid.Column="1"><Run Language="pt-br" Text="Km / Litro"/></TextBlock>
+        <TextBox x:Name="txtKmLitro" HorizontalAlignment="Left" Margin="87,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="4,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.48,5.951" Height="20" Width="71" Grid.Column="1"><Run Language="pt-br" Text="R$ / Litro"/></TextBlock>
+        <TextBox x:Name="txtRListro" HorizontalAlignment="Left" Margin="87,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20" Grid.Column="1"/>
+
+    </Grid>
+</Window>
